@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>array methods</title>
+</head>
+<body>
+    <script>
+        let myArr=["fan","camera",34,null]
+        console.log(myArr.length);
+
+        // myArr.push("ifra");
+        // useful for pushing between loop
+
+        // myArr.pop();
+        // last element will b removed
+
+        // myArr.shift()
+        // ist element will b removed
+        
+
+    //    myArr.unshift("irtiza");
+        // irtiza will b added in the front
+       const newlen= myArr.unshift("irtiza")
+        // will return new length
+        console.log(newlen);
+         
+       myArr= myArr.toString();
+        // converts array to string
+        console.log(myArr);
+
+        myArr.sort();
+        // sorts array by first converting to string and then see which comes first in dictionary
+        
+
+    </script>
+</body>
+</html>
